@@ -9,8 +9,12 @@
     <modules>
         <module>microservice-srpingcloud-api</module>
         <module>microservice-springcloud-dept-8081</module>
-        <module>microservice-springcloud-consumer-8082</module>
+        <module>microservice-springcloud-dept-8082</module>
+        <module>microservice-springcloud-dept-8083</module>
+        <module>microservice-springcloud-consumer-7070</module>
         <module>microservice-springcloud-eureka-9090</module>
+        <module>microservice-springcloud-eureka-9091</module>
+        <module>microservice-springcloud-eureka-9092</module>
     </modules>
     <packaging>pom</packaging>
 

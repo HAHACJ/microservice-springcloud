@@ -1,0 +1,21 @@
+server:
+  port: 7070
+
+spring:
+  application:
+    name: microservice-comsumer-7070
+
+#consumer_8082:
+#  ip: localhost
+#  rest_url_prefix: http://${consumer_8082.ip}:8081
+
+consumer_8082:
+  rest_url_prefix: http://microservice-springcloud-dept
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka9091:9091/eureka/,http://eureka9092:9092/eureka/,http://eureka9090:9090/eureka/
+  instance:
+    instance-id: comsumer-7070
+    prefer-ip-address: true

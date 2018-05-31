@@ -1,16 +1,18 @@
 server:
-  port: 9090
+  port: 9091
 
 spring:
   application:
-    name: eureka-server9090
+    name: eureka-server9091
 
 eureka:
   instance:
-    hostname: eureka9090
+    hostname: eureka9091
   client:
     register-with-eureka: false
     fetch-registry: false
-    serviceUrl:
+    service-url:
 #     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://eureka9091:9091/eureka/,http://eureka9092:9092/eureka/
+#逗号之间不能有空格
+      defaultZone: http://eureka9090:9090/eureka/,http://eureka9092:9092/eureka/
+
