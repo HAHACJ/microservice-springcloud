@@ -1,4 +1,4 @@
-package com.microservice.consumer8082.config;
+package com.microservice.consumer7070.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -13,4 +13,15 @@ public class BeanConfig {
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }
+
+//    /**
+//     * 选取随机规则
+//     * @return
+//     */
+//    @Bean
+//    public IRule myRule() {
+//        return new RandomRule();
+//    }
+
+
 }

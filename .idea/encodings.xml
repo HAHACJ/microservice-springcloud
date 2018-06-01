@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-7070" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-7071" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-dept-8081" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-dept-8082" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-dept-8083" charset="UTF-8" />

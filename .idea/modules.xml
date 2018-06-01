@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud.iml" filepath="$PROJECT_DIR$/microservice-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-consumer-7070/microservice-springcloud-consumer-7070.iml" filepath="$PROJECT_DIR$/microservice-springcloud-consumer-7070/microservice-springcloud-consumer-7070.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-7071/microservice-springcloud-consumer-feign-7071.iml" filepath="$PROJECT_DIR$/microservice-springcloud-consumer-feign-7071/microservice-springcloud-consumer-feign-7071.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-dept-8082/microservice-springcloud-dept-8082.iml" filepath="$PROJECT_DIR$/microservice-springcloud-dept-8082/microservice-springcloud-dept-8082.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-dept-8083/microservice-springcloud-dept-8083.iml" filepath="$PROJECT_DIR$/microservice-springcloud-dept-8083/microservice-springcloud-dept-8083.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-eureka-9090/microservice-springcloud-eureka-9090.iml" filepath="$PROJECT_DIR$/microservice-springcloud-eureka-9090/microservice-springcloud-eureka-9090.iml" />

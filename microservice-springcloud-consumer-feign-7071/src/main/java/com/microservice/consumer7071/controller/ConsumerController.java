@@ -1,5 +1,6 @@
-package com.microservice.consumer8082.controller;
+package com.microservice.consumer7071.controller;
 
+import com.microservice.consumer7071.service.DeptFeignService;
 import com.microservice.entity.Dept;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,24 +16,18 @@ import java.util.List;
 @RestController
 public class ConsumerController {
 
-    private final Logger log = LoggerFactory.getLogger(ConsumerController.class);
-
     @Autowired
-    private RestTemplate restTemplate;
+    private DeptFeignService deptFeignService;
 
-    @Value("${consumer_8082.rest_url_prefix}")
-    private String restUrlPrefix;
 
     @GetMapping("/consumer/find/{id}")
     public Dept getById(@PathVariable Integer id) {
-
-        log.info("restUrlPrefix:{}", restUrlPrefix);
-        return restTemplate.getForObject(restUrlPrefix + "/dept/find/" + id, Dept.class);
+        return deptFeignService.getById(id);
     }
 
 
     @GetMapping("/consumer/find/all")
     public List<Dept> getAll() {
-        return restTemplate.getForObject(restUrlPrefix + "/dept/find/all", List.class);
+        return deptFeignService.getAll();
     }
 }
