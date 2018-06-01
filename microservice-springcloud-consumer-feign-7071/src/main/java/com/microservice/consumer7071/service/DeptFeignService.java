@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
+
 @FeignClient(name = "microservice-springcloud-dept")
 public interface DeptFeignService {
 
     @GetMapping("/dept/find/{id}")
-    Dept getById(@PathVariable Integer id);
+    Dept getById(@PathVariable("id") Integer id);
 
 
     @GetMapping("/dept/find/all")

@@ -5,13 +5,6 @@ spring:
   application:
     name: microservice-comsumer--feign-7071
 
-#consumer_8082:
-#  ip: localhost
-#  rest_url_prefix: http://${consumer_8082.ip}:8081
-
-consumer_8082:
-  rest_url_prefix: http://microservice-springcloud-dept
-
 eureka:
   client:
     service-url:
