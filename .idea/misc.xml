@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-springcloud-eureka-9090/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-springcloud-consumer-feign-hystrix-7072/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

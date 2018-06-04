@@ -33,6 +33,6 @@ info:
   company:
     name: haha
   build:
-    artifactId: $project.artifactId$
-    version: $project.version$
+    artifactId: microservice-springcloud-dept-8082
+    version: 0.0.1-SNAPSHOT
 

@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8084
 
 mybatis:
   type-aliases-package: com.microservice.entity
@@ -11,7 +11,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.78.130:3306/db_source03
+    url: jdbc:mysql://192.168.78.130:3306/db_source04
     username: root
     password: 123
     dbcp2:
@@ -24,15 +24,15 @@ eureka:
     service-url:
       defaultZone: http://eureka9090:9090/eureka/,http://eureka9091:9091/eureka/,http://eureka9092:9092/eureka/
   instance:
-    instance-id: dept-8083
+    instance-id: dept-hystrix-8084
     prefer-ip-address: true
 
 info:
   app:
-    name: dept-8083
+    name: dept-hystrix-8084
   company:
     name: haha
   build:
-    artifactId: microservice-springcloud-dept-8083
-    version: 0.0.1-SNAPSHOT
+    artifactId: $project.artifactId$
+    version: $project.version$
 

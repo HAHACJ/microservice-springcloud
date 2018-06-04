@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.microservice.springcloud.detp8081.dao.DeptDao">
+
+    <select id="findById" parameterType="Long" resultType="Dept">
+        select * from dept where deptno = #{deptno}
+    </select>
+
+    <select id="findAll" resultType="Dept">
+        select * from dept
+    </select>
+
+    <insert id="add" parameterType="Dept">
+        insert into dept (deptno,dname,db_source) values (#{deptno}, #{dname}, DATABASE())
+    </insert>
+
+    <delete id="delete" parameterType="Long">
+        delete from dept where deptno = #{deptno}
+    </delete>
+
+    <update id="update" parameterType="Dept">
+        update dept
+        <trim prefix="set" suffixOverrides=",">
+            <if test="dept.dname != null">
+                dname = #{dept.dname},
+            </if>
+
+            <if test="dept.deptno != null">
+                deptno = #{dept.deptno},
+            </if>
+
+            <if test="dept.db_source != null">
+                db_source = #{dept.db_source},
+            </if>
+
+            <if test="dept.db_source = null">
+                db_source = DATABASE(),
+            </if>
+
+        </trim>
+        where deptno = #{dept.deptno}
+    </update>
+</mapper>
