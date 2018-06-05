@@ -5,8 +5,7 @@
     <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-7070" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-7071" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-hystrix-7072" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-hystrix-7072" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-hystrix-7072" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-dept-8081" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-dept-8082" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-dept-8083" charset="UTF-8" />
@@ -14,6 +13,7 @@
     <file url="file://$PROJECT_DIR$/microservice-springcloud-eureka-9090" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-eureka-9091" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-eureka-9092" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-springcloud-gateway-6060" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-srpingcloud-api" charset="UTF-8" />
   </component>
 </project>

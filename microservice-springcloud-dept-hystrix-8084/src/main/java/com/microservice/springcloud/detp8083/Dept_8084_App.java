@@ -1,14 +1,16 @@
-package com.microservice.springcloud.detp8082;
+package com.microservice.springcloud.detp8083;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
+@EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Dept_8082_App {
+public class Dept_8084_App {
     public static void main(String[] args) {
-        SpringApplication.run(Dept_8082_App.class, args);
+        SpringApplication.run(Dept_8084_App.class, args);
     }
 }

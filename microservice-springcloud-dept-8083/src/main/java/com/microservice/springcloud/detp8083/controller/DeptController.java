@@ -1,7 +1,7 @@
-package com.microservice.springcloud.detp8082.controller;
+package com.microservice.springcloud.detp8083.controller;
 
 import com.microservice.entity.Dept;
-import com.microservice.springcloud.detp8082.service.DeptService;
+import com.microservice.springcloud.detp8083.service.DeptService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

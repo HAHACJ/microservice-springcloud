@@ -9,10 +9,12 @@
         <module name="microservice-springcloud-consumer-7070" />
         <module name="microservice-springcloud-consumer-feign-7071" />
         <module name="microservice-springcloud-consumer-feign-hystrix-7072" />
+        <module name="microservice-springcloud-consumer-hystrix-dashboard-7073" />
         <module name="microservice-springcloud-dept-8082" />
         <module name="microservice-springcloud-dept-8083" />
         <module name="microservice-springcloud-dept-hystrix-8084" />
         <module name="microservice-springcloud-eureka-9090" />
+        <module name="microservice-springcloud-gateway-6060" />
         <module name="microservicespringclouddept8081" />
         <module name="microservicespringcloudeureka9091" />
         <module name="microservicespringcloudeureka9092" />
@@ -26,10 +28,12 @@
       <module name="microservice-springcloud-consumer-7072" target="1.8" />
       <module name="microservice-springcloud-consumer-feign-7071" target="1.8" />
       <module name="microservice-springcloud-consumer-feign-hystrix-7072" target="1.8" />
+      <module name="microservice-springcloud-consumer-hystrix-dashboard-7073" target="1.8" />
       <module name="microservice-springcloud-dept-8082" target="1.8" />
       <module name="microservice-springcloud-dept-8083" target="1.8" />
       <module name="microservice-springcloud-dept-hystrix-8084" target="1.8" />
       <module name="microservice-springcloud-eureka-9090" target="1.8" />
+      <module name="microservice-springcloud-gateway-6060" target="1.8" />
       <module name="microserviceeureka9090" target="1.8" />
       <module name="microservicespringcloudconsumer8082" target="1.8" />
       <module name="microservicespringcloudconsumerfeignhystrix7072" target="1.8" />

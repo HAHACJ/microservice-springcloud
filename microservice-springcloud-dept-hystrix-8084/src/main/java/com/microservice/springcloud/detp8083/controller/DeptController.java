@@ -1,7 +1,8 @@
-package com.microservice.springcloud.detp8082.controller;
+package com.microservice.springcloud.detp8083.controller;
 
 import com.microservice.entity.Dept;
-import com.microservice.springcloud.detp8082.service.DeptService;
+import com.microservice.springcloud.detp8083.service.DeptService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,11 @@ public class DeptController {
     private DeptService deptService;
 
     @GetMapping("/dept/find/{id}")
+    @HystrixCommand(fallbackMethod = "errorFind")
     public Dept findById(@PathVariable Long id) {
+        if (id == 0) {
+            new RuntimeException();
+        }
        return deptService.getById(id);
     }
 
@@ -47,4 +52,7 @@ public class DeptController {
         deptService.delete(id);
     }
 
+    public Dept errorFind(@PathVariable("id") Long id) {
+        return new Dept().setDname("后台服务繁忙，请稍后重试！");
+    }
 }

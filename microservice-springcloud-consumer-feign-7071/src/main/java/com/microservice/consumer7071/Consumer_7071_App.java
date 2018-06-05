@@ -1,14 +1,17 @@
-package com.microservice.springcloud.detp8082;
+package com.microservice.consumer7071;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Dept_8082_App {
+@EnableFeignClients
+public class Consumer_7071_App {
+
     public static void main(String[] args) {
-        SpringApplication.run(Dept_8082_App.class, args);
+        SpringApplication.run(Consumer_7071_App.class, args);
     }
 }

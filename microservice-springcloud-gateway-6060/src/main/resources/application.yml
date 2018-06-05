@@ -1,0 +1,23 @@
+server:
+  port: 6060
+spring:
+  application:
+    name: zuul
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka9090:9090/eureka/,http://eureka9091:9091/eureka/,http://eureka9092:9092/eureka/
+  instance:
+    instance-id: zuul-6060
+    prefer-ip-address: true
+    hostname: gateway
+zuul:
+  routes:
+    mypath:
+      service-id: microservice-consumer-feign-7071
+#      service-id: microservice-springcloud-dept
+      path: /zuul/**
+
+

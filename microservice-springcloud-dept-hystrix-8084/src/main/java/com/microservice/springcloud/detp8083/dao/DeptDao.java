@@ -1,4 +1,4 @@
-package com.microservice.springcloud.detp8082.dao;
+package com.microservice.springcloud.detp8083.dao;
 
 import com.microservice.entity.Dept;
 import org.apache.ibatis.annotations.Mapper;

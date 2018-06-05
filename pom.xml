@@ -18,6 +18,8 @@
         <module>microservice-springcloud-eureka-9090</module>
         <module>microservice-springcloud-eureka-9091</module>
         <module>microservice-springcloud-eureka-9092</module>
+        <module>microservice-springcloud-consumer-hystrix-dashboard</module>
+        <module>microservice-springcloud-gateway-6060</module>
     </modules>
     <packaging>pom</packaging>
 
