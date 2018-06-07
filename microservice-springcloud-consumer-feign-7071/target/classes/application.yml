@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: microservice-comsumer--feign-7071
+    name: microservice-comsumer-feign-7071
 
 eureka:
   client:

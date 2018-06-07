@@ -15,9 +15,10 @@ eureka:
     hostname: gateway
 zuul:
   routes:
-    mypath:
-      service-id: microservice-consumer-feign-7071
-#      service-id: microservice-springcloud-dept
+    dpet:
+      serviceId: microservice-springcloud-dept
       path: /zuul/**
+
+
 
 
