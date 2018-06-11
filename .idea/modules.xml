@@ -3,18 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud.iml" filepath="$PROJECT_DIR$/microservice-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-configclient-4040/microservice-springcloud-configclient-4040.iml" filepath="$PROJECT_DIR$/microservice-springcloud-configclient-4040/microservice-springcloud-configclient-4040.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-configserver-5050/microservice-springcloud-configserver-5050.iml" filepath="$PROJECT_DIR$/microservice-springcloud-configserver-5050/microservice-springcloud-configserver-5050.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-consumer-7070/microservice-springcloud-consumer-7070.iml" filepath="$PROJECT_DIR$/microservice-springcloud-consumer-7070/microservice-springcloud-consumer-7070.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-7071/microservice-springcloud-consumer-feign-7071.iml" filepath="$PROJECT_DIR$/microservice-springcloud-consumer-feign-7071/microservice-springcloud-consumer-feign-7071.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-hystrix-7072/microservice-springcloud-consumer-feign-hystrix-7072.iml" filepath="$PROJECT_DIR$/microservice-springcloud-consumer-feign-hystrix-7072/microservice-springcloud-consumer-feign-hystrix-7072.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-consumer-hystrix-dashboard/microservice-springcloud-consumer-hystrix-dashboard-7073.iml" filepath="$PROJECT_DIR$/microservice-springcloud-consumer-hystrix-dashboard/microservice-springcloud-consumer-hystrix-dashboard-7073.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-dept-8081/microservice-springcloud-dept-8081.iml" filepath="$PROJECT_DIR$/microservice-springcloud-dept-8081/microservice-springcloud-dept-8081.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-dept-8082/microservice-springcloud-dept-8082.iml" filepath="$PROJECT_DIR$/microservice-springcloud-dept-8082/microservice-springcloud-dept-8082.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-dept-8083/microservice-springcloud-dept-8083.iml" filepath="$PROJECT_DIR$/microservice-springcloud-dept-8083/microservice-springcloud-dept-8083.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-dept-hystrix-8084/microservice-springcloud-dept-hystrix-8084.iml" filepath="$PROJECT_DIR$/microservice-springcloud-dept-hystrix-8084/microservice-springcloud-dept-hystrix-8084.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-eureka-9090/microservice-springcloud-eureka-9090.iml" filepath="$PROJECT_DIR$/microservice-springcloud-eureka-9090/microservice-springcloud-eureka-9090.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-eureka-9091/microservice-springcloud-eureka-9091.iml" filepath="$PROJECT_DIR$/microservice-springcloud-eureka-9091/microservice-springcloud-eureka-9091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-eureka-9092/microservice-springcloud-eureka-9092.iml" filepath="$PROJECT_DIR$/microservice-springcloud-eureka-9092/microservice-springcloud-eureka-9092.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-gateway-6060/microservice-springcloud-gateway-6060.iml" filepath="$PROJECT_DIR$/microservice-springcloud-gateway-6060/microservice-springcloud-gateway-6060.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-dept-8081/microservicespringclouddept8081.iml" filepath="$PROJECT_DIR$/microservice-springcloud-dept-8081/microservicespringclouddept8081.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-eureka-9091/microservicespringcloudeureka9091.iml" filepath="$PROJECT_DIR$/microservice-springcloud-eureka-9091/microservicespringcloudeureka9091.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-springcloud-eureka-9092/microservicespringcloudeureka9092.iml" filepath="$PROJECT_DIR$/microservice-springcloud-eureka-9092/microservicespringcloudeureka9092.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-srpingcloud-api/microservicesrpingcloudapi.iml" filepath="$PROJECT_DIR$/microservice-srpingcloud-api/microservicesrpingcloudapi.iml" />
     </modules>
   </component>

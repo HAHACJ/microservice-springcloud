@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-springcloud-configclient-4040" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-springcloud-configserver-5050" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-7070" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-7071" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-springcloud-consumer-feign-hystrix-7072" charset="UTF-8" />

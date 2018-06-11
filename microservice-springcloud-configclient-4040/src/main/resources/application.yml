@@ -1,17 +1,9 @@
 server:
-  port: 5050
-
+  port: 4040
 
 spring:
   application:
-    name: microservice-config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:HAHACJ/microservice-springcloud-config.git
-
-
+    name: microservice-config-client
 
 
 eureka:
@@ -19,6 +11,6 @@ eureka:
     service-url:
       defaultZone: http://eureka9090:9090/eureka/,http://eureka9091:9091/eureka/,http://eureka9092:9092/eureka/
   instance:
-    instance-id: config-server-5050
+    instance-id: config-client-4040
     prefer-ip-address: true
 
